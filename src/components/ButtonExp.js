@@ -13,7 +13,9 @@ class ButtonExp extends Component {
       isToggle: !prevState.isToggle,
     }));
     alert(
-      !this.state.isToggle ? "Turn the Light theme" : "Turn the Dark theme"
+      !this.state.isToggle
+        ? "Turn to the Light theme"
+        : "Turn to the Dark theme"
     );
   }
 
